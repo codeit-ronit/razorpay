@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color:rgb(4, 4, 46);
+    width:100vw;
+}   
+.items-center a{
+    cursor: pointer;
+}
+
+.items-center{
+    align-items: center;
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+a{padding-top: 7px; 
+    padding-bottom: 7px;
+    padding-right:7px;} 
+
+
+.sidebyside{
+    display:flex;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/* .payments{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* padding-top: 7px;
+    padding-bottom: 7px; */
+.sidebyside a{
+    color: white; }   
+
+/* .sidebyside:hover a{
+    color: white; 
+    bottom:0%;
+    width: full;
+    height: full;;
+    background-color: lightblue;
+    display: hidden; */
+
+
+ul{
+    list-style: none;
+}
+.payments:hover a{
+    color: lightblue;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    
+    
+    
+}
+.Banking:hover a{
+    color: lightblue;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+   
+    
+    
+}
+.payroll:hover a{
+    color: lightblue;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+  
+    
+    
+}
+.partner:hover a{
+    color: lightblue;
+    cursor: pointer;
+    transition: all;
+    transition-duration:200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+    
+}
+.Resources:hover a{
+    color: lightblue;
+    cursor: pointer;
+    transition: all;
+    transition-duration:200px;;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+  
+    
+}
+.support:hover a{
+    color: lightblue;
+    cursor: pointer;
+    transition: all;
+   transition-duration: 200;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    
+}
+.pricing:hover a{
+    color: lightblue;
+    cursor: pointer;
+    transition: all;
+    transition: duration 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+   
+    
+    
+}
+
+
+.login{
+    
+    background-color:rgb(4, 4, 46) ;
+    color: white;
+    padding: 14px 20px;
+    /* margin-top: 0%;
+    margin-bottom: auto; */
+    margin-left: 14px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-color: rgb(161, 164, 235);
+    font-weight: bold;
+
+   
+
+}
+.Signup{
+    background-color: white;
+   color: rgb(32, 164, 200);
+    padding: 14px 20px;
+    margin-left: 14px;
+    border-radius: 5px;
+    border-color: white;
+    font-weight: bold;
+
+
+}
+
+
+/* .signup{
+    align-items:center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px; */
+
+/* } */
+.hero{
+    width:100vw;
+    height:35vw;
+    background-color:rgb(4, 4, 46) ;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.power{
+    font-weight: bold;
+    color: white;
+    line-height: 1.2px;
+    margin:50px;
+
+}
+.lun{
+    width: 20px;
+    height: 4px;
+    background-color: greenyellow;
+    margin-left: 400px;
+    font-weight: bolder;
+    margin-top: 2%;
+  
+}
+
+.sidebyside1 p{
+    text-size-adjust: 18px;
+    line-height: 7px;
+    color: white;
+
+}
+.right img{
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+}
+.sidebyside1 p {
+    opacity: 70%;
+    padding-right: -20px;
+    padding-top: 20px;
+    line-height: 18px;
+    /* margin-right: 100px; */
+
+    
+
+  
+    margin-left: 400px;
+    margin-top: 10px;
+    
+}
+.sidebyside1 button {
+    font-weight: bold;
+    background-color: rgb(15, 107, 199);
+    color: white;
+    width: 135px;
+    border-radius:10%;
+    margin-left: 400px;
+    margin-top: 10px;
+ 
+    padding: 17px 17px;
+}
+.sidebyside1 button:hover{
+    background-color:lightblue;
+    transition: all;
+    transition-duration: 200ms;
+
+}
+.power{
+    /* padding-right: 50%;
+    padding-bottom: 20%; */
+    color: white;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+
+}
+.dusra{
+    color: white;
+    margin-left: 400px;
+    margin-top: -50px;
+  
+}
+.right{
+    margin-right: 280px;
+    margin-top: 20px;
+}
+.nextpage{
+    margin-top: 190px;
+    width: 100vw;
+}
+.dot{
+   
+   margin-top: -100px;
+}
+.dots{
+float: right;
+margin-top: -90px;
+
+}
+.box{
+    align-items: center;
+}
+.accept{
+    text-align: center;
+    line-height: 1.2px;
+    font-weight: bold;
+    
+   
+}
+.content1{
+    box-sizing: content-box;
+    background-color: white;
+    display: flex;
+   /* border-width: 2px;
+   border-color: black; */
+   border: 0.2px solid grey;
+   padding: 40px 350px 20px 50px;
+   
+}
+.content-left{
+    flex-direction: column;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+.button1{
+    background-color:rgb(15, 107, 199);
+     width: fit-content; 
+     font-weight: bold;
+     padding : 14px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.button1:hover{
+    background-color: lightblue;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.ac-payment-image {
+    margin-top: 5rem;
+    height: 27rem;
+    width:25rem ;
+    position: relative;
+    left: -1rem;
+    top: -50px;
+    filter: brightness(1.08);
+}
+
+.combination-div {
+    width: 65vw;
+}
+.newgrid{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 3;
+    gap: 4px;
+}
